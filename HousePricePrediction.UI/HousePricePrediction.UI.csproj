@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Evaluation.png" />
+    <None Remove="Images\Houses.png" />
+    <None Remove="Images\Prediction.png" />
+    <None Remove="Images\Training.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Evaluation.png" />
+    <Resource Include="Images\Houses.png" />
+    <Resource Include="Images\Prediction.png" />
+    <Resource Include="Images\Training.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HousePricePrediction\HousePricePrediction.csproj" />
+  </ItemGroup>
+
+</Project>

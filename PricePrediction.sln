@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HousePricePrediction", "HousePricePrediction\HousePricePrediction.csproj", "{0FB25757-8900-4027-941E-D484995ABA01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HousePricePrediction.UI", "HousePricePrediction.UI\HousePricePrediction.UI.csproj", "{132562A6-5620-4234-9850-3C53079EB976}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB25757-8900-4027-941E-D484995ABA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB25757-8900-4027-941E-D484995ABA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB25757-8900-4027-941E-D484995ABA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB25757-8900-4027-941E-D484995ABA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132562A6-5620-4234-9850-3C53079EB976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132562A6-5620-4234-9850-3C53079EB976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132562A6-5620-4234-9850-3C53079EB976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132562A6-5620-4234-9850-3C53079EB976}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28C3043F-F266-47BB-8F23-3E1576DA0AEE}
+	EndGlobalSection
+EndGlobal

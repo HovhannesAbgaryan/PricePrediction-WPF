@@ -153,6 +153,8 @@ namespace HousePricePrediction.UI
 
         private void logOut_Click(object sender, RoutedEventArgs e)
         {
+            var loginWindow = new LoginWindow();
+            loginWindow.Show();
             Close();
         }
 

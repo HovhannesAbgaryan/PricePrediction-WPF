@@ -76,6 +76,7 @@ namespace HousePricePrediction.UI
                 {
                     var predictionWindow = new PredictionWindow(roleId);
                     predictionWindow.Show();
+                    Close();
                 }
             }
             catch (Exception)

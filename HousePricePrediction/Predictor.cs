@@ -122,9 +122,6 @@ namespace HousePricePrediction
                 var metrics = mlContext.Regression.Evaluate(testingPriceData, labelColumnName: "Price");
 
                 return metrics;
-
-                // Average output is: RSquared: 0.96 and Root Mean Squared Error: 0.19
-                // The evaluation metrics tell you that the error is low-ish, and that correlation between the predicted output and the test output is high.
             }
             catch (Exception)
             {
